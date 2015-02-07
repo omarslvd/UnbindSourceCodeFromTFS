@@ -5,10 +5,25 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnbindSourceCodeFromTFS", "UnbindSourceCodeFromTFS\UnbindSourceCodeFromTFS.csproj", "{F368D344-1145-4C49-A164-7EF3247635CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{226DE67A-56BA-4B7D-A7D8-A3AEDA1896C4}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\ComponentFactory.Krypton.Toolkit.dll = Libraries\ComponentFactory.Krypton.Toolkit.dll
+		Libraries\Lumos.Windows.Api.dll = Libraries\Lumos.Windows.Api.dll
+		Libraries\Microsoft.WindowsAPICodePack.dll = Libraries\Microsoft.WindowsAPICodePack.dll
+		Libraries\Microsoft.WindowsAPICodePack.Shell.dll = Libraries\Microsoft.WindowsAPICodePack.Shell.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{10C71A75-AFD8-4DF1-8C13-93CBE4430F50}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Correct.png = Images\Correct.png
+		Images\Empty.png = Images\Empty.png
+		Images\Minus.png = Images\Minus.png
+		Images\Progress.png = Images\Progress.png
+		Images\VisualStudio.ico = Images\VisualStudio.ico
+		Images\Wrong.png = Images\Wrong.png
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(CodealikeProperties) = postSolution
-		SolutionGuid = 18d4a384-c2f1-4d87-9aaa-89c5263f477f
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -21,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 18d4a384-c2f1-4d87-9aaa-89c5263f477f
 	EndGlobalSection
 EndGlobal
